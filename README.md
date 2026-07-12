@@ -6,7 +6,7 @@
 
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=22&duration=2800&pause=900&color=7AA2F7&center=true&vCenter=true&width=800&lines=%3E+Initializing+mission+control...;%3E+Sole+DevOps+across+4+production+products;%3E+200%2B+deployments+per+week;%3E+13+microservices+traced+end-to-end;%3E+Status%3A+ONLINE" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=22&duration=2800&pause=900&color=7AA2F7&center=true&vCenter=true&width=800&lines=%3E+Initializing+mission+control...;%3E+Sole+DevOps+across+5+production+products;%3E+200%2B+deployments+per+week;%3E+13+microservices+traced+end-to-end;%3E+Status%3A+ONLINE" />
 
 <br/>
 
