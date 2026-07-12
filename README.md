@@ -87,12 +87,12 @@ availability:  [OPEN]  remote roles / USD contracts
 
 <div align="center">
 
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=Emad-Zafar&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=7AA2F7&icon_color=BB9AF7&text_color=C0CAF5&include_all_commits=true&count_private=true" />
+<img height="180" src="https://github-readme-stats.shion.dev/api?username=Emad-Zafar&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=7AA2F7&icon_color=BB9AF7&text_color=C0CAF5&include_all_commits=true&count_private=true" />
 <img height="180" src="https://github-readme-streak-stats.herokuapp.com/?user=Emad-Zafar&theme=tokyonight&hide_border=true&background=0D1117&ring=7AA2F7&fire=BB9AF7&currStreakLabel=7AA2F7" />
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=Emad-Zafar&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=7AA2F7&line=BB9AF7&point=C0CAF5&area=true&area_color=7AA2F7" />
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Emad-Zafar&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=7AA2F7&text_color=C0CAF5&layout=compact&langs_count=8" />
+<img src="https://github-readme-stats.shion.dev/api/top-langs/?username=Emad-Zafar&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=7AA2F7&text_color=C0CAF5&layout=compact&langs_count=8" />
 
 </div>
 
