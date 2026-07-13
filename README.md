@@ -6,7 +6,7 @@
 
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=22&duration=2800&pause=900&color=7AA2F7&center=true&vCenter=true&width=800&lines=%3E+Initializing+mission+control...;%3E+Sole+DevOps+across+5+production+products;%3E+200%2B+deployments+per+week;%3E+13+microservices+traced+end-to-end;%3E+Status%3A+ONLINE" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=22&duration=2800&pause=900&color=7AA2F7&center=true&vCenter=true&width=800&lines=%3E+Initializing+mission+control...;%3E+Sole+DevOps+across+4+production+products;%3E+200%2B+deployments+per+week;%3E+13+microservices+traced+end-to-end;%3E+Status%3A+ONLINE" />
 
 <br/>
 
@@ -38,25 +38,58 @@ availability:  [OPEN]  remote roles / USD contracts
 
 <br/>
 
-## `~$ cat impact.log`
+## `~$ ./run_impact.sh`
 
-```
-[✓]  Deployment pipeline           →  200+ deploys/week  ·  dev/SIT/prod  ·  8–10 engineer team
-[✓]  Automation service rebuild    →  eliminated 6–12h queue waits  ·  thousands of jobs/wk now instant + auto-scaling
-[✓]  Distributed tracing (LGTM)    →  full stack across 13 microservices  ·  trace ↔ log ↔ metric correlation
-[✓]  Expo EAS mobile pipeline      →  release time  ~93% ↓  (40 min → 2–3 min)  ·  build cost  ~95% ↓
-[✓]  Production forensics          →  ~1M log lines analyzed  ·  3 latent security gaps surfaced
-[✓]  TechUni AWS rebuild           →  100% Terraform IaC from scratch  ·  baseline infra cost  ~25% ↓
-[✓]  Hardened SSH deploy pipeline  →  SSM secrets → memory-only (/dev/shm)  ·  IMDSv2  ·  shred wipe
-```
+<table>
+  <tr>
+    <td align="center" width="33%">
+      <sub>DEPLOYS PER WEEK</sub>
+      <h1>200+</h1>
+      <sub>dev · SIT · prod  ·  8–10 engineers</sub>
+    </td>
+    <td align="center" width="33%">
+      <sub>RELEASE TIME</sub>
+      <h1>93% ↓</h1>
+      <sub>40 min → 2–3 min  ·  Expo EAS pipeline</sub>
+    </td>
+    <td align="center" width="33%">
+      <sub>BUILD COST</sub>
+      <h1>95% ↓</h1>
+      <sub>fingerprint-based OTA routing</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <sub>MICROSERVICES TRACED</sub>
+      <h1>13</h1>
+      <sub>LGTM stack  ·  trace ↔ log ↔ metric</sub>
+    </td>
+    <td align="center">
+      <sub>INFRA COST</sub>
+      <h1>25% ↓</h1>
+      <sub>VPC consolidation  ·  ECS right-sizing</sub>
+    </td>
+    <td align="center">
+      <sub>LOG LINES ANALYZED</sub>
+      <h1>~1M</h1>
+      <sub>production forensics  ·  3 gaps surfaced</sub>
+    </td>
+  </tr>
+</table>
+
+> **`+`** Rebuilt a crashing automation service into a controller–worker ASG architecture — eliminated 6–12h queue waits; thousands of weekly jobs now start instantly with auto-scaling.
+>
+> **`+`** Authored a hardened SSH deployment pipeline — SSM secrets pulled into memory-only storage (`/dev/shm`), `shred`-based wipe on exit, IMDSv2 for runtime config, pre-flight signal trapping.
 
 <br/>
 
 ## `~$ cat stack.txt`
 
-**Cloud & Compute — AWS**
+**Cloud & Compute — Multi-Cloud (AWS-primary)**
 <p>
 <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=FF9900" />
+<img src="https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white" />
+<img src="https://img.shields.io/badge/GCP-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white" />
 <img src="https://img.shields.io/badge/ECS_Fargate-FF9900?style=for-the-badge&logo=amazon-ecs&logoColor=white" />
 <img src="https://img.shields.io/badge/EC2-FF9900?style=for-the-badge&logo=amazon-ec2&logoColor=white" />
 <img src="https://img.shields.io/badge/Lambda-FF9900?style=for-the-badge&logo=aws-lambda&logoColor=white" />
@@ -95,8 +128,13 @@ availability:  [OPEN]  remote roles / USD contracts
 <img src="https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white" />
 <img src="https://img.shields.io/badge/Loki-F5A623?style=for-the-badge&logo=grafana&logoColor=white" />
 <img src="https://img.shields.io/badge/Tempo-FF6B00?style=for-the-badge&logo=grafana&logoColor=white" />
+<img src="https://img.shields.io/badge/Grafana_Alloy-F46800?style=for-the-badge&logo=grafana&logoColor=white" />
 <img src="https://img.shields.io/badge/OpenTelemetry-F5A800?style=for-the-badge&logo=opentelemetry&logoColor=white" />
 <img src="https://img.shields.io/badge/Alertmanager-E6522C?style=for-the-badge&logo=prometheus&logoColor=white" />
+<img src="https://img.shields.io/badge/Node_Exporter-E6522C?style=for-the-badge&logo=prometheus&logoColor=white" />
+<img src="https://img.shields.io/badge/cAdvisor-00ADD8?style=for-the-badge&logo=google&logoColor=white" />
+<img src="https://img.shields.io/badge/SLF4J-EE0000?style=for-the-badge&logoColor=white" />
+<img src="https://img.shields.io/badge/Winston-231F20?style=for-the-badge&logoColor=white" />
 </p>
 
 **Backend & Databases**
@@ -107,6 +145,7 @@ availability:  [OPEN]  remote roles / USD contracts
 <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white" />
 <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
 <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" />
+<img src="https://img.shields.io/badge/Neo4j-008CC1?style=for-the-badge&logo=neo4j&logoColor=white" />
 <img src="https://img.shields.io/badge/TypeORM-FE0803?style=for-the-badge&logo=typeorm&logoColor=white" />
 </p>
 
@@ -119,9 +158,16 @@ availability:  [OPEN]  remote roles / USD contracts
 <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
 </p>
 
+**AI-Assisted Engineering**
+<p>
+<img src="https://img.shields.io/badge/Claude-D97757?style=for-the-badge&logo=anthropic&logoColor=white" />
+<img src="https://img.shields.io/badge/ChatGPT-10A37F?style=for-the-badge&logo=openai&logoColor=white" />
+<img src="https://img.shields.io/badge/Gemini-4285F4?style=for-the-badge&logo=google-gemini&logoColor=white" />
+</p>
+
 **Security & Compliance**
 <p>
-<img src="https://img.shields.io/badge/HIPAA_aware_infra-1E293B?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzdBQTJGNyI+PHBhdGggZD0iTTEyIDFMMyA1djZjMCA1LjU1IDMuODQgMTAuNzQgOSAxMiA1LjE2LTEuMjYgOS02LjQ1IDktMTJWNWwtOS00eiIvPjwvc3ZnPg==&logoColor=white" />
+<img src="https://img.shields.io/badge/HIPAA_aware_infra-1E293B?style=for-the-badge&logoColor=white" />
 <img src="https://img.shields.io/badge/Drata-6A5DFF?style=for-the-badge&logoColor=white" />
 <img src="https://img.shields.io/badge/BitSight-EE3524?style=for-the-badge&logoColor=white" />
 <img src="https://img.shields.io/badge/PHI_safe_logging-0D9488?style=for-the-badge&logoColor=white" />
@@ -152,15 +198,41 @@ availability:  [OPEN]  remote roles / USD contracts
 
 <br/>
 
-## `~$ cat credentials.log`
+## `~$ credentials --show`
 
-```
-CERT   AWS Certified Cloud Practitioner
-EDU    BS Software Engineering — CECOS University  (2020–2024)
-       CGPA 3.53  ·  Ranked 4th  ·  Merit Scholarship
-LEAD   Google Developer Student Club — Founding Lead  (2023–24)
-       450+ members  ·  20+ tech events organized
-```
+<table>
+  <tr>
+    <td align="center" width="33%">
+      <br/>
+      <img src="https://img.shields.io/badge/AWS_Certified-Cloud_Practitioner-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white" />
+      <br/><br/>
+      <sub>Amazon Web Services</sub>
+      <br/><br/>
+    </td>
+    <td align="center" width="33%">
+      <br/>
+      <b>BS Software Engineering</b>
+      <br/>
+      <sub>CECOS University  ·  2020–2024</sub>
+      <br/><br/>
+      <img src="https://img.shields.io/badge/CGPA-3.53-7AA2F7?style=flat-square" />
+      <img src="https://img.shields.io/badge/Rank-4th-BB9AF7?style=flat-square" />
+      <br/>
+      <img src="https://img.shields.io/badge/Merit_Scholarship-9ECE6A?style=flat-square" />
+      <br/><br/>
+    </td>
+    <td align="center" width="33%">
+      <br/>
+      <b>Google Developer Student Club</b>
+      <br/>
+      <sub>Founding Lead  ·  2023–24</sub>
+      <br/><br/>
+      <img src="https://img.shields.io/badge/Members-450%2B-F7768E?style=flat-square" />
+      <img src="https://img.shields.io/badge/Events-20%2B-E0AF68?style=flat-square" />
+      <br/><br/>
+    </td>
+  </tr>
+</table>
 
 <br/>
 
