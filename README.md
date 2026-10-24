@@ -6,7 +6,7 @@
 
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=22&duration=2800&pause=900&color=7AA2F7&center=true&vCenter=true&width=800&lines=%3E+Initializing+mission+control...;%3E+Sole+DevOps+across+6+production+products;%3E+200%2B+deployments+per+week;%3E+13+microservices+traced+end-to-end;%3E+Status%3A+ONLINE" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=22&duration=2800&pause=900&color=7AA2F7&center=true&vCenter=true&width=800&lines=%3E+Initializing+mission+control...;%3E+DevOps+Team+Lead+across+7+production+products;%3E+200%2B+deployments+per+week;%3E+13+microservices+traced+end-to-end;%3E+Status%3A+ONLINE" />
 
 <br/>
 
@@ -25,13 +25,16 @@
 operator:      Emad Ud Din Zafar
 role:          DevOps & Cloud Engineer @ Insight Technology
 location:      Islamabad, PK  (UTC+5)
-experience:    2+ years  ·  sole DevOps across 4 production products
+experience:    4+ years  ·  DevOps Team Lead across 7 production products
 scope:
-  - Confidant Health   # HIPAA-regulated US telehealth · 13 microservices · tens of thousands of users · 150+ AWS services
-  - TechUni            # multi-tenant white-labeled SaaS · NestJS + React + Expo
-  - Insight EMR        # multi-tenant EHR platform
-  - Insight Finance    # internal finance platform (backend dev + DevOps)
-certified:     AWS Certified Cloud Practitioner
+  - Confidant Health     # HIPAA-regulated US telehealth · 13 microservices · tens of thousands of users · 150+ AWS services
+  - TechUni              # multi-tenant white-labeled SaaS · NestJS + React + Expo
+  - Insight EMR          # multi-tenant EHR platform
+  - Insight Finance      # internal finance platform (backend dev + DevOps)
+  - Mirth Command Center # AI enabled desktop application to manage Mirth Connect instances in health care (HL7 - FHIR)
+  - Viitals              # Core ingestion pipeline & web MVP
+  - Insight HR           # Secure, full-lifecycle multi-tenant HRIS internl platform
+certified:     ISO/IEC 27001 Information Security Associate | AWS Certified Cloud Practitioner 
 mission:       Ship infrastructure that doesn't wake me up at 3 AM
 availability:  [OPEN]  remote roles / USD contracts
 ```
