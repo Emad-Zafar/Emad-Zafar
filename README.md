@@ -6,7 +6,7 @@ Terraform · AWS · CI/CD · Observability (Prometheus, Grafana, Loki, Tempo)
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/emad-zafar/)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:zafaremaduddin@gmail.com)
-[![Medium](https://img.shields.io/badge/Medium-000000?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@zafaremaduddin)
+[![Medium](https://img.shields.io/badge/Medium-000000?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@emadzafar)
 [![Book a call](https://img.shields.io/badge/Book_a_free_call-7AA2F7?style=for-the-badge)](https://cal.com/YOUR-LINK)
 
 > **Open for freelance DevOps contracts (remote, USD or EUR).** Message me with your setup and I will tell you the quickest win.
